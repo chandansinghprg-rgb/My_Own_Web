@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color:black;
+    color: white;
+    font: 300;
+    align-content: centre;
+    
+
+}
+a:link{
+    color:yellow;
+
+}
+img{
+    width: 600px;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    margin: 20px:
+}
