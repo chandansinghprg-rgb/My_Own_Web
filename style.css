@@ -1,23 +1,44 @@
-body{
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    background-color:black;
+    min-height: 100vh;
+    background-color: black;
     color: white;
-    font: 300;
-    align-content: centre;
-    
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    padding: 24px 0;
+}
 
+section {
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
 }
-a:link{
-    color:yellow;
 
+a:link,
+a:visited {
+    color: yellow;
 }
-img{
-    width: 600px;
+
+img {
+    max-width: 100%;
+    height: auto;
 }
-.navbar{
+
+.navbar {
     position: absolute;
     top: 0;
+    left: 0;
     text-align: left;
     width: 100%;
-    margin: 20px:
+    padding: 20px;
 }
